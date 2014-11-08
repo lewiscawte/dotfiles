@@ -5,6 +5,8 @@
 .mysql_history
 .nano_history
 .ssh/id_rsa
+mbox/
+Maildir/
 
 # Laptop/Desktop Directories
 Desktop/
