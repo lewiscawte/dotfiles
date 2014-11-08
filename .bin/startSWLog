@@ -1,0 +1,3 @@
+#!/bin/bash
+
+screen -dmS lewiscawte python /home/lewiscawte/Bots/SWLogBot/adminlogbot.py

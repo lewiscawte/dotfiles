@@ -1,0 +1,59 @@
+#!/bin/bash
+
+servers=( "monolith" "vertex" "hermes" "grunt" "translatewiki" "brickimedia" "rar" "znc", "yap", "pluto" )
+
+case "$1" in
+		monolith)
+			printf "Logging into $1.\n"
+			ssh lcawte@monolith.shoutwiki-servers.com
+			;;
+		vertex)
+			printf "Logging into $1.\n"
+			ssh lcawte@vertex.shoutwiki-servers.com
+			;;
+		hermes)
+			printf "Logging into $1.\n"
+			ssh root@hermes.lewiscawte-servers.me
+			;;
+		grunt)
+			printf "Logging into $1.\n"
+			ssh lcawte@grunt.shoutwiki-servers.com
+			;;
+		translatewiki)
+			printf "Logging into $1.\n"
+			ssh lcawte@translatewiki.net
+			;;
+		brickimedia)
+			printf "Logging into $1.\n"
+			ssh lcawte@ssh.brickimedia.org
+			;;
+		twitter)
+			printf "Logging into $1.\n"
+			ssh lcawte@twitter.shoutwiki-servers.com
+			;;
+		rar)
+			printf "Logging into $1.\n"
+			ssh lcawte@rar.shoutwiki-servers.com
+			;;
+		znc)
+			printf "Logging into $1.\n"
+			ssh lewiscawte@znc.lewiscawte.me
+			;;
+		yap)
+			printf "Logging into $1.\n"
+			ssh lcawte@yap.shoutwiki-servers.com -p 222
+			;;
+		pluto)
+			printf "Logging into $1.\n"
+			ssh lcawte@pluto.skizzerz.net
+			;;
+		*)
+			printf "There following servers are available to log in to: "
+			for entry in "${servers[@]}"
+			do
+				printf $entry
+				printf ", "
+			done
+
+			printf "\nUsage: logmein <server>\n"
+esac
