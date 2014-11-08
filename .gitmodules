@@ -1,0 +1,3 @@
+[submodule ".bin/findGitHubEmail"]
+	path = .bin/findGitHubEmail
+	url = git@github.com:hodgesmr/FindGitHubEmail.git
