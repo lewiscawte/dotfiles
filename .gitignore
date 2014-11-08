@@ -1,4 +1,12 @@
-# Laptop Directories
+# Generic Ignores
+.bash_history
+.bash_logout
+.aptitude/
+.mysql_history
+.nano_history
+.ssh/id_rsa
+
+# Laptop/Desktop Directories
 Desktop/
 Documents/
 Downloads/
