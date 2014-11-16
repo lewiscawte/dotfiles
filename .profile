@@ -16,13 +16,15 @@ if [ -n "$BASH_VERSION" ]; then
     fi
 fi
 
-SSHAGENT=/usr/bin/ssh-agent
-SSHAGENTARGS="-s"
-if [ -z "$SSH_AUTH_SOCK" -a -x "$SSHAGENT" ]; then
-  eval `$SSHAGENT $SSHAGENTARGS`
-  trap "kill $SSH_AGENT_PID" 0
+if [[ 'hostname -s' == "server-Ponos" ]]; then
+	SSHAGENT=/usr/bin/ssh-agent
+	SSHAGENTARGS="-s"
+	if [ -z "$SSH_AUTH_SOCK" -a -x "$SSHAGENT" ]; then
+	  eval `$SSHAGENT $SSHAGENTARGS`
+	  trap "kill $SSH_AGENT_PID" 0
+	fi
+	export GPGKEY=43955B54
 fi
-export GPGKEY=43955B54
 
 # set PATH so it includes user's private bin if it exists
 if [ -d "$HOME/.bin" ] ; then
