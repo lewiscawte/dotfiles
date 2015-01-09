@@ -4,6 +4,8 @@
 alias refresh="source .profile && source .bashrc"
 alias temp="sensors && sudo hddtemp /dev/sda"
 alias pkgup="sudo aptitude update && sudo aptitude safe-upgrade"
+alias untar="tar -zxvf"
+alias targz="tar -zcvf"
 
 ## SSH Login Aliases
 ### ShoutWiki
