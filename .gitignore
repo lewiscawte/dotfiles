@@ -5,6 +5,7 @@
 .mysql_history
 .nano_history
 .ssh/id_rsa
+.config/
 mbox/
 Maildir/
 
@@ -20,3 +21,4 @@ Public
 Steam
 Templates
 Videos
+.WebIde80
