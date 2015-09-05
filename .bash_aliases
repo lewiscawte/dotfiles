@@ -17,6 +17,7 @@ alias rar="ssh lcawte@rar.shoutwiki-servers.com"
 alias grunt="ssh lcawte@grunt.shoutwiki-servers.com"
 alias yap="ssh lcawte@yap.shoutwiki-servers.com -p 222"
 alias vertex="ssh lcawte@vertex.skizzerz.net"
+alias twitter="ssh lcawte@twitter.shoutwiki-servers.com"
 
 ### Personal / Own Use
-alias hermes="ssh lcawte@hermes.lewiscawte-servers.me"
+alias hermes="ssh lcawte@hermes.lewiscawte-servers.net"
