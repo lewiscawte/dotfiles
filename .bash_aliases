@@ -13,11 +13,10 @@ alias voldown="amixer -D pulse sset Master 5%-"
 ## SSH Login Aliases
 ### ShoutWiki
 alias monolith="ssh lcawte@monolith.shoutwiki-servers.com"
-alias rar="ssh lcawte@rar.shoutwiki-servers.com"
 alias grunt="ssh lcawte@grunt.shoutwiki-servers.com"
-alias yap="ssh lcawte@yap.shoutwiki-servers.com -p 222"
 alias vertex="ssh lcawte@vertex.skizzerz.net"
-alias twitter="ssh lcawte@twitter.shoutwiki-servers.com"
+alias chirp="ssh lcawte@chirp.shoutwiki-servers.com -p 222"
+alias pluto="ssh lcawte@pluto.skizzerz.net"
 
 ### Personal / Own Use
 alias hermes="ssh lcawte@hermes.lewiscawte-servers.net"
