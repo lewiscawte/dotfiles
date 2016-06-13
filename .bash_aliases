@@ -1,7 +1,7 @@
 # Aliases
 
 ## Random things
-alias refresh="source .profile && source .bashrc"
+alias refresh="source ~/.profile && source ~/.bashrc"
 alias temp="sensors && sudo hddtemp /dev/sda"
 alias pkgup="sudo aptitude update && sudo aptitude safe-upgrade"
 alias pkgrm="sudo aptitude remove"
