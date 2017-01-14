@@ -1,0 +1,9 @@
+#!/bin/bash
+
+# Set this so we can re-use the input
+OPTION=$1
+
+sudo service nginx $OPTION
+sudo service php5-fpm $OPTION
+sudo service hhvm $OPTION
+sudo service mysql $OPTION
