@@ -17,6 +17,7 @@ alias grunt="ssh lcawte@grunt.shoutwiki-servers.com"
 alias vertex="ssh lcawte@vertex.skizzerz.net"
 alias chirp="ssh lcawte@chirp.shoutwiki-servers.com -p 222"
 alias pluto="ssh lcawte@pluto.skizzerz.net"
+alias bellow="ssh lcawte@bellow.shoutwiki-servers.com"
 
 ### Personal / Own Use
 alias hermes="ssh lcawte@hermes.lewiscawte-servers.net"
