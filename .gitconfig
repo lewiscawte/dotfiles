@@ -3,3 +3,5 @@
 [user]
 	email = lewis@lewiscawte.me
 	name = Lewis Cawte
+[push]
+	default = simple

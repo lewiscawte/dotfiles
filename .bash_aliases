@@ -3,8 +3,8 @@
 ## Random things
 alias refresh="source ~/.profile && source ~/.bashrc"
 alias temp="sensors && sudo hddtemp /dev/sda"
-alias pkgup="sudo aptitude update && sudo aptitude safe-upgrade"
-alias pkgrm="sudo aptitude remove"
+alias pkgup="sudo apt update && sudo apt upgrade"
+alias pkgrm="sudo apt remove"
 alias untar="tar -zxvf"
 alias targz="tar -zcvf"
 alias volup="amixer -D pulse sset Master 5%+"
