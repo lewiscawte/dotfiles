@@ -9,6 +9,7 @@ alias untar="tar -zxvf"
 alias targz="tar -zcvf"
 alias volup="amixer -D pulse sset Master 5%+"
 alias voldown="amixer -D pulse sset Master 5%-"
+alias sshagent="eval `ssh-agent -s`"
 
 ## SSH Login Aliases
 ### ShoutWiki
