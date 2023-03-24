@@ -13,12 +13,12 @@ alias sshagent="eval `ssh-agent -s`"
 
 ## SSH Login Aliases
 ### ShoutWiki
-alias monolith="ssh lcawte@monolith.shoutwiki-servers.com"
-alias grunt="ssh lcawte@grunt.shoutwiki-servers.com"
-alias vertex="ssh lcawte@vertex.skizzerz.net"
 alias chirp="ssh lcawte@chirp.shoutwiki-servers.com -p 222"
-alias pluto="ssh lcawte@pluto.skizzerz.net"
 alias bellow="ssh lcawte@bellow.shoutwiki-servers.com"
+alias aloud="ssh lcawte@aloud.shoutwiki-servers.com"
+alias bark="ssh lcawte@bark.shoutwiki-servers.com"
+alias utter="ssh lcawte@utter.shoutwiki-servers.com"
 
 ### Personal / Own Use
-alias hermes="ssh lcawte@hermes.lewiscawte-servers.net"
+alias userbox="ssh lcawte@user30box.shoutwiki.services"
+alias homeserve="ssh lewis@192.168.0.98"
