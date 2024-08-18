@@ -1,0 +1,8 @@
+#!/bin/sh
+
+git clone https://github.com/lewiscawte/dotfiles.git /home/lcawte
+adduser lcawte
+usermod -aG sudo lcawte
+chown lcawte:lcawte -R /home/lcawte
+
+exit 0;
