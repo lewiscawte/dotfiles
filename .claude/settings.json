@@ -5,7 +5,14 @@
     "superpowers@claude-plugins-official": true,
     "agent-skills@addy-agent-skills": true,
     "ponytail@ponytail": true,
+    "modern-web-guidance@googlechrome": true,
+    "azure@claude-plugins-official": true,
+    "claude-security@claude-plugins-official": true,
+    "php-lsp@claude-plugins-official": true,
+    "security-guidance@claude-plugins-official": true,
+    "lua-lsp@claude-plugins-official": true,
     "modern-web-guidance@googlechrome": true
+
   },
   "extraKnownMarketplaces": {
     "addy-agent-skills": {
@@ -28,5 +35,35 @@
     }
   },
   "language": "English (United Kingdom)",
-  "theme": "auto"
+  "theme": "dark",
+  "autoUpdatesChannel": "stable",
+  "autoMode": {
+    "environment": [
+      "### Org-wide",
+      "**Organization**: None configured",
+      "**Cloud provider(s)**: None configured",
+      "**Repository visibility**: not queryable here via gh — assume private unless later shown otherwise (no public-visibility signal found)",
+      "**Internal sharing / snippet hosting**: None configured — treat public paste/gist services as outside the trust boundary",
+      "**Secrets management**: None configured",
+      "**Default / protected branches**: not queryable here via gh — treat as unverified",
+      "**CI/CD deploy targets**: None configured",
+      "**Network posture**: None configured",
+      "**Host containment**: None configured — assume Claude Code runs on an ordinary developer machine with open internet",
+      "**Source control**: The trusted repo (github.com:lewiscawte/dotfiles.git) and its remote only (no additional orgs configured)",
+      "**Trusted internal domains**: None configured",
+      "**Trusted cloud buckets**: None configured — bucket-name scan did not complete cleanly, treat as unavailable, not absent",
+      "**Key internal services**: None configured",
+      "**Internal package registry**: None configured",
+      "**Sensitive data locations & audiences**: any file or store holding personal data, confidential business data, credentials, regulated data, or similarly sensitive material; preserve exact handles when known and share only with audiences cleared at the [named+specifics] bar — note this home directory contains many sibling checkouts (e.g. Code/azure-wp-pretix/terraform/*.tfvars, Code/azure-wp-pretix/terraform/terraform.tfstate*, Code/integration-config/zuul.d/secrets.yaml, Code/pretix-backup/var-pretix-data-legacy/.secret, Code/pretix-backup/venv-info/django-secret.txt, various .env / .env.sample files) that are outside the dotfiles trusted repo and should be treated as sensitive if touched",
+      "**Data retention / declassification**: None configured",
+      "**Sensitive remote targets**: any namespace, host, or container whose name carries `prod` or `production` as a whole word or name segment",
+      "**Protected deployment namespaces / environments**: None configured — fall back to the Sensitive remote targets heuristic",
+      "**Protected IaC scopes**: IAM, RBAC, networking, quota, and node-pool resources; anything whose name or tag carries `prod` or `production` as a whole word or name segment — note Code/azure-wp-pretix/terraform holds live Terraform state and tfvars but is outside this project's trusted repo",
+      "### User-specific",
+      "**Primary use of Claude Code**: software development (dotfiles / personal tooling)",
+      "**Trusted repo**: this repo only — /home/lewis (git repo, remote github.com:lewiscawte/dotfiles.git); other checkouts under the home directory (e.g. ~/Code/*, ~/PycharmProjects/*, ~/devBoxSSC/w, ~/mediawiki-2025) are separate repos and out of scope for this project's trust boundary",
+      "**Org-specific CLIs**: None configured",
+      "routine under ~/ prefix: none configured beyond the dotfiles repo itself — treat sibling checkouts under ~/Code, ~/PycharmProjects, ~/devBoxSSC as out of scope, not routine"
+    ]
+  }
 }
